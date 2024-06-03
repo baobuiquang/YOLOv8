@@ -6,5 +6,8 @@ venv\Scripts\activate
 
 py -m pip install --upgrade pip
 
+pip install torch==2.2.1 torchvision==0.17.1
+
 pip freeze > requirements.txt
+
 pip install -r requirements.txt
